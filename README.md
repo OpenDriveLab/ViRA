@@ -12,7 +12,7 @@
 
 ---
 
-![](https://ik.imagekit.io/zizizihao/ViRA-Diffusion/teaser.jpg?updatedAt=1791253880365)
+![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/teaser.jpg?updatedAt=1791281459035)
 
 ## Highlights
 
@@ -32,11 +32,11 @@
 
 ## Visualization of HUGSIM
 
-![](https://ik.imagekit.io/zizizihao/ViRA-Diffusion/hugsim-video.gif?updatedAt=1791255862235)
+![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/hugsim_video_1.gif?updatedAt=1791281459300)
 
 **(a) Car following: the lead vehicle brakes suddenly**
 
-![](https://ik.imagekit.io/zizizihao/ViRA-Diffusion/hugsim-video-2.gif)
+![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/hugsim_video_2.gif?updatedAt=1791281459297)
 
 **(b) Normal driving: a vehicle crosses in from the sidewalk**
 
