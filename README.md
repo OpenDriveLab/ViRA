@@ -5,7 +5,7 @@
 </div>
 
 
-> [Zihao Zhang](https://github.com/Zizizi-hao), [Haochen Tian](https://github.com/hctian713), [Tianyu Li](https://sephyli.github.io/), [Changhui Jing](https://scholar.google.com/citations?hl=en&user=B4Nu6pAAAAAJ), [Jingliang He]()
+> [Zihao Zhang](https://github.com/Zizizi-hao), [Haochen Tian](https://github.com/hctian713), [Tianyu Li](https://sephyli.github.io/), [Changhui Jing](https://scholar.google.com/citations?hl=en&user=B4Nu6pAAAAAJ), [Jingliang He](),
 > [Naisheng Ye](https://scholar.google.com/citations?hl=en&user=VO0yYFcAAAAJ), [Ziyuan Pu](https://scholar.google.com/citations?hl=en&user=EzCLa-4AAAAJ), [Zhenjie Yang](https://scholar.google.com/citations?hl=en&user=jVlRiUEAAAAJ)
 
 > - 📧 Primary Contact: Zihao Zhang (zihao.zhang@opendrivelab.com)
@@ -34,6 +34,7 @@
 - [ ] Checkpoints release.
 
 ## Visualization of HUGSIM
+
 <div id="top" align="center">
 <p align="center">
   <img src="https://ik.imagekit.io/zizizihao/ViRA-Diffusion/hugsim-video.gif">
