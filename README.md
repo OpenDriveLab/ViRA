@@ -37,7 +37,7 @@
 
 <div id="top" align="center">
 <p align="center">
-  <img src="https://ik.imagekit.io/zizizihao/ViRA-Diffusion/hugsim-video.gif">
+  <img src="https://ik.imagekit.io/zizizihao/ViRA-Diffusion/hugsim-video.gif?updatedAt=1791255862235">
 </p>
 </div>
 
