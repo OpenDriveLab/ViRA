@@ -50,6 +50,5 @@ We acknowledge all the open-source contributors for the following projects to ma
 ## License and Citation
 
 All content in this repository is under the [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
-The released data is based on [nuPlan](https://www.nuscenes.org/nuplan) and is under the [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 If any parts of our paper and code help your research, please consider citing us and giving a star to our repository.
