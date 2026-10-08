@@ -2,6 +2,8 @@
 
 # Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?
 
+[![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&amp;logoColor=white&amp;labelColor=555)](https://arxiv.org/abs/2610.09695)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://github.com/OpenDriveLab/ViRA/blob/main/LICENSE) 
 
 
 > [Zihao Zhang](https://github.com/Zizizi-hao), [Haochen Tian](https://github.com/hctian713), [Tianyu Li](https://sephyli.github.io/), [Changhui Jing](https://scholar.google.com/citations?hl=en&user=B4Nu6pAAAAAJ), [Jingliang He](),
