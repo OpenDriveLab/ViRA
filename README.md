@@ -127,7 +127,7 @@ ViRA-Diffusion is DiffusionDrive trained with DINOv3 alignment and without auxil
 </tr>
 <tr style="text-align: center;">
 <td><b>ViRA-Diffusion</b></td>
-<td><b>92.3</b></td>
+<td><a href="./navsim_results/navtest/ViRA-Diffusion.csv"><b>92.3</b></a></td>
 </tr>
 </table>
 
