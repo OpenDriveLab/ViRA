@@ -157,3 +157,14 @@ We acknowledge all the open-source contributors for the following projects to ma
 All content in this repository is under the [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
 
 If any parts of our paper and code help your research, please consider citing us and giving a star to our repository.
+
+```bibtex
+@misc{zhang2026vira,
+  title = {Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?},
+  author = {Zhang, Zihao and Tian, Haochen and Li, Tianyu and Jing, Changhui and He, Jingliang and Ye, Naisheng and Pu, Ziyuan and Yang, Zhenjie},
+  year = {2026},
+  eprint = {2610.09695},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2610.09695}
+}
+```
