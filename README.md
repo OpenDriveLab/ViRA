@@ -137,13 +137,13 @@ ViRA-Diffusion is DiffusionDrive trained with DINOv3 alignment and without auxil
 
 ## Visualization of HUGSIM
 
-![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/hugsim_video_1.gif?updatedAt=1791281800093)
+![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/p_027_with_trajectory.gif)
 
 **(a) Car following: the lead vehicle brakes suddenly**
 
-![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/hugsim_video_2.gif?updatedAt=1791281786649)
+![](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/w_200_hard.gif)
 
-**(b) Normal driving: a vehicle crosses in from the sidewalk**
+**(b) Oncoming traffic: other vehicles enter the current driving area**
 
 ## Acknowledgements
 
