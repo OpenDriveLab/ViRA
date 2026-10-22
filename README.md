@@ -5,7 +5,7 @@
 [![Paper](https://img.shields.io/badge/-Paper-B31B1B?logo=arxiv&amp;logoColor=white&amp;labelColor=555)](https://arxiv.org/abs/2610.09695)
 [![Project Page](https://img.shields.io/badge/Project_Page-8A2BE2?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IndoaXRlIgogIHN0cm9rZS13aWR0aD0iMiIKICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIKPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPjxwYXRoIGQ9Ik0xMiAyYTE0LjUgMTQuNSAwIDAgMCAwIDIwIDE0LjUgMTQuNSAwIDAgMCAwLTIwIiAvPjxwYXRoIGQ9Ik0yIDEyaDIwIiAvPjwvc3ZnPg%3D%3D&logoColor=white&labelColor=555)](https://opendrivelab.com/ViRA/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://github.com/OpenDriveLab/ViRA/blob/main/LICENSE) 
-
+[![Checkpoints](https://img.shields.io/badge/-Checkpoints-FFD21E?logo=huggingface&logoColor=white&labelColor=555)](https://huggingface.co/OpenDriveLab-org/ViRA)
 
 
 > [Zihao Zhang](https://github.com/Zizizi-hao), [Haochen Tian](https://github.com/hctian713), [Tianyu Li](https://sephyli.github.io/), [Changhui Jing](https://scholar.google.com/citations?hl=en&user=B4Nu6pAAAAAJ), [Jingliang He](),
@@ -26,13 +26,53 @@
 
 ## News
 
+- `[2026/10/22]` We released the code and [checkpoints](https://huggingface.co/OpenDriveLab-org/ViRA) of ViRA-Diffusion.
 - `[2026/10/7]` We released our [paper](https://arxiv.org/abs/2610.09695) on arXiv.
 
 ## TODO List
 
 - [x] Results and Demo release.
-- [ ] Code release.
-- [ ] Checkpoints release.
+- [x] ViRA-Diffusion inference code and checkpoints.
+- [ ] All Code release.
+- [ ] All Checkpoints release.
+
+## Getting Started
+
+### 1. Clone ViRA Repo
+```bash
+git clone https://github.com/OpenDriveLab/ViRA
+cd ViRA
+```
+
+### 2. Create Environment
+```bash
+conda env create --name vira -f environment.yml
+conda activate vira
+pip install -e .
+```
+
+### 3. Data Preparation
+
+Prepare the NAVSIM OpenScene data as described in [NAVSIM](https://github.com/autonomousvision/navsim). Download the ViRA-Diffusion checkpoints from [Hugging Face](https://huggingface.co/OpenDriveLab-org/ViRA) into `ckpts/`. Generate the navtest metric cache and place it at the path below. The trajectory anchor is already in the repository.
+
+```text
+ViRA/
+├── datasets/
+│   ├── maps/                  # NUPLAN_MAPS_ROOT, nuplan-maps-v1.0
+│   ├── navsim_logs/
+│   ├── sensor_blobs/
+│   └── navhard_two_stage/
+├── navsim/traj_final/kmeans_navsim_traj_20.npy
+├── exp/cache/navsim_v2_eval_cache/navtest_metric_cache/
+└── ckpts/
+    ├── resnet34.bin
+    └── vira_diffusion.ckpt
+```
+
+### 4. Inference
+```bash
+bash ./scripts/evaluation_navtest/run_vira_diffusion_evaluation.sh
+```
 
 ## Results
 
