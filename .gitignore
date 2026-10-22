@@ -1,4 +1,4 @@
 __pycache__/
 ckpts/
 datasets/
-exp/
+exp_local/
