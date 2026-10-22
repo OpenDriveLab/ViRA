@@ -63,7 +63,7 @@ ViRA/
 │   ├── sensor_blobs/
 │   └── navhard_two_stage/
 ├── navsim/traj_final/kmeans_navsim_traj_20.npy
-├── exp/cache/navsim_v2_eval_cache/navtest_metric_cache/
+├── exps/cache/navsim_v2_eval_cache/navtest_metric_cache/
 └── ckpts/
     ├── resnet34.bin
     └── vira_diffusion.ckpt
