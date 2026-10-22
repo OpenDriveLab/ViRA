@@ -1,4 +1,4 @@
-nuplan-devkit==1.2.0
+nuplan-devkit==2.0.0
 scikit-learn==1.2.2
 positional-encodings==6.0.1
 
