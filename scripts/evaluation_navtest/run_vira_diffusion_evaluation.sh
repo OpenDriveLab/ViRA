@@ -10,12 +10,12 @@ export OPENSCENE_DATA_ROOT="${repo_root}/datasets"
 split=navtest
 agent=diffusiondrive_agent
 metric_cache_path="${NAVSIM_EXP_ROOT}/cache/navsim_v2_eval_cache/navtest_metric_cache"
-bkb_path="./ckpts/resnet34.bin"
+bkb_path="./ckpts/Resnet34.bin"
 
 experiment_name=train_diffusiondrive_resnet_navtest
 experiment_uid=$(date +%Y.%m.%d.%H.%M.%S)
 output_dir="${NAVSIM_EXP_ROOT}/${agent}/${experiment_name}/${experiment_uid}"
-ckpt="'./ckpts/vira_diffusion.ckpt'"
+ckpt="'./ckpts/ViRA_Diffusion.ckpt'"
 echo "Starting evaluation script..."
 
 

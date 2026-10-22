@@ -61,9 +61,10 @@ ViRA/
 │   ├── maps/                  # NUPLAN_MAPS_ROOT, nuplan-maps-v1.0
 │   ├── navsim_logs/
 │   ├── sensor_blobs/
+│   ├── warmup_two_stage/
 │   └── navhard_two_stage/
 ├── navsim/traj_final/kmeans_navsim_traj_20.npy
-├── exps/cache/navsim_v2_eval_cache/navtest_metric_cache/
+├── exp/cache/navsim_v2_eval_cache/navtest_metric_cache/
 └── ckpts/
     ├── resnet34.bin
     └── vira_diffusion.ckpt
