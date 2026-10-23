@@ -25,6 +25,7 @@
 - 📈 **ViRA-Diffusion:** DINOv3 alignment enables 92.3 EPDMS on NAVSIM v2 navtest without auxiliary perception supervision.
 
 ## News
+- `[2026/10/23]` As of October 23, 2026, ViRA-Diffusion ranks first on the Papers with Code NAVSIM v2 navtest benchmark. [![Papers with Code: SOTA on NAVSIM v2 navtest](https://paperswithcode.co/api/v1/papers/2610.09695/leaderboard-badge.svg?eval=40108&live=1)](https://paperswithcode.co/api/v1/papers/2610.09695/leaderboard-badge-link?eval=40108)
 
 - `[2026/10/22]` We released the code and [checkpoints](https://huggingface.co/OpenDriveLab-org/ViRA) of ViRA-Diffusion.
 - `[2026/10/7]` We released our [paper](https://arxiv.org/abs/2610.09695) on arXiv.
@@ -175,6 +176,13 @@ ViRA-Diffusion is DiffusionDrive trained with DINOv3 alignment and without auxil
 <td><a href="./navsim_results/navtest/ViRA-Diffusion.csv"><b>92.3</b></a></td>
 </tr>
 </table>
+
+
+### 🏆 Papers with Code Leaderboard
+
+As of October 23, 2026, **ViRA-Diffusion ranks #1** on the [Papers with Code NAVSIM v2 navtest leaderboard](https://paperswithcode.co/benchmark/navsim-v2-navtest?task=autonomous-driving&eval=40108) with **92.3 EPDMS**.
+
+![Papers with Code NAVSIM v2 navtest leaderboard](https://ik.imagekit.io/zizizihao/ViRA_Diffusion/leaderboard.png?updatedAt=1792719233036)
 
 ## Visualization of HUGSIM
 
