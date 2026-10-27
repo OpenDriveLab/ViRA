@@ -6,7 +6,7 @@
 [![Project Page](https://img.shields.io/badge/Project_Page-8A2BE2?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IndoaXRlIgogIHN0cm9rZS13aWR0aD0iMiIKICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIKPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiAvPjxwYXRoIGQ9Ik0xMiAyYTE0LjUgMTQuNSAwIDAgMCAwIDIwIDE0LjUgMTQuNSAwIDAgMCAwLTIwIiAvPjxwYXRoIGQ9Ik0yIDEyaDIwIiAvPjwvc3ZnPg%3D%3D&logoColor=white&labelColor=555)](https://opendrivelab.com/ViRA/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://github.com/OpenDriveLab/ViRA/blob/main/LICENSE) 
 [![Checkpoints](https://img.shields.io/badge/-Checkpoints-FFD21E?logo=huggingface&logoColor=white&labelColor=555)](https://huggingface.co/OpenDriveLab-org/ViRA)
-
+[![Papers with Code: SOTA on NAVSIM v2 navtest](https://paperswithcode.co/api/v1/papers/2610.09695/leaderboard-badge.svg?eval=40108&live=1)](https://paperswithcode.co/api/v1/papers/2610.09695/leaderboard-badge-link?eval=40108)
 
 > [Zihao Zhang](https://github.com/Zizizi-hao), [Haochen Tian](https://github.com/hctian713), [Tianyu Li](https://sephyli.github.io/), [Changhui Jing](https://scholar.google.com/citations?hl=en&user=B4Nu6pAAAAAJ), [Jingliang He](),
 > [Naisheng Ye](https://scholar.google.com/citations?hl=en&user=VO0yYFcAAAAJ), [Ziyuan Pu](https://scholar.google.com/citations?hl=en&user=EzCLa-4AAAAJ), [Zhenjie Yang](https://scholar.google.com/citations?hl=en&user=jVlRiUEAAAAJ)
